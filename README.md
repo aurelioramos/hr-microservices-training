@@ -36,3 +36,6 @@ git clone mscourse
 [📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
 
 [💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+
+[Spring database initialization](https://docs.spring.io/spring-boot/how-to/data-initialization.html)
+[Spring Quick Guide on Loading Initial Data with Spring Boot](https://www.baeldung.com/spring-boot-data-sql-and-schema-sql)
