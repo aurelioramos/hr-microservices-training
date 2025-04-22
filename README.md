@@ -40,3 +40,4 @@ java -jar target/seu-projeto.jar --server.port=8083
 * [Spring Quick Guide on Loading Initial Data with Spring Boot](https://www.baeldung.com/spring-boot-data-sql-and-schema-sql)
 * [Spring Cloud OpenFeign](https://spring.io/projects/spring-cloud-openfeign#overview)
 * [Spring Cloud LoadBalancer](https://docs.spring.io/spring-cloud-commons/reference/spring-cloud-commons/common-abstractions.html)
+* [Service Registration and Discovery](https://spring.io/guides/gs/service-registration-and-discovery)
