@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.edu.ifms.hr_payroll.entities.Payment;
 import br.edu.ifms.hr_payroll.services.PaymentService;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+import io.github.resilience4j.retry.annotation.Retry;
 
 @RestController
 @RequestMapping(value = "/payments")
@@ -19,9 +21,16 @@ public class PaymentResource {
         this.service = service;
     }
 
+    @CircuitBreaker(name = "hr-worker", fallbackMethod = "getPaymentAlternative")
+    // @Retry(name = "hr-worker")
     @GetMapping(value = "/{workerId}/days/{days}")
     public ResponseEntity<Payment> getPayment(@PathVariable Long workerId, @PathVariable Integer days) {
         Payment payment = service.getPayment(workerId, days);
+        return ResponseEntity.ok(payment);
+    }
+
+    public ResponseEntity<Payment> getPaymentAlternative(Long workerId, Integer days, Exception e) {
+        Payment payment = new Payment("Not available", 0.0, days);
         return ResponseEntity.ok(payment);
     }
 }

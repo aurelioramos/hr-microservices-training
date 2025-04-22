@@ -41,3 +41,5 @@ java -jar target/seu-projeto.jar --server.port=8083
 * [Spring Cloud OpenFeign](https://spring.io/projects/spring-cloud-openfeign#overview)
 * [Spring Cloud LoadBalancer](https://docs.spring.io/spring-cloud-commons/reference/spring-cloud-commons/common-abstractions.html)
 * [Service Registration and Discovery](https://spring.io/guides/gs/service-registration-and-discovery)
+* [Spring Cloud Circuit Breaker](https://spring.io/projects/spring-cloud-circuitbreaker)
+* [Resilience4j Circuit Breaker](https://resilience4j.readme.io/docs/circuitbreaker)
