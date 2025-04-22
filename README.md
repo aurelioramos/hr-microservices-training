@@ -39,4 +39,4 @@ git clone mscourse
 
 [Spring database initialization](https://docs.spring.io/spring-boot/how-to/data-initialization.html)
 [Spring Quick Guide on Loading Initial Data with Spring Boot](https://www.baeldung.com/spring-boot-data-sql-and-schema-sql)
-[REST Clients](https://docs.spring.io/spring-framework/reference/integration/rest-clients.html)
+[Spring Cloud OpenFeign](https://spring.io/projects/spring-cloud-openfeign#overview)

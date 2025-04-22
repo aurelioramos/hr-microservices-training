@@ -8,28 +8,22 @@ import org.springframework.web.client.RestClient;
 
 import br.edu.ifms.hr_payroll.entities.Payment;
 import br.edu.ifms.hr_payroll.entities.Worker;
+import br.edu.ifms.hr_payroll.feignclients.WorkerFeignClient;
 
 @Service
 public class PaymentService {
 
-    @Value("${hr-worker.host}")
-    private String workerHost;
+    private WorkerFeignClient workerRestClient;
 
-    private RestClient restClient;
-
-    public PaymentService(RestClient restClient) {
-        this.restClient = restClient;
+    public PaymentService(WorkerFeignClient workerRestClient) {
+        this.workerRestClient = workerRestClient;
     }
 
     public Payment getPayment(long workerId, int days) {
-        Worker worker = restClient.method(HttpMethod.GET)
-                .uri(workerHost + "/workers/{workerId}", workerId)
-                .accept(MediaType.APPLICATION_JSON)
-                .retrieve()
-                .body(Worker.class);
+        Worker worker = workerRestClient.findById(workerId).getBody();
         if (worker != null) {
             return new Payment(worker.getName(), worker.getDailyIncome(), days);
-        }       
+        }
         return null;
     }
 }
