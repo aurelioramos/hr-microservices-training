@@ -1,0 +1,10 @@
+### https://github.com/Huachao/vscode-restclient/issues/523
+### https://github.com/Huachao/vscode-restclient#environment-variables
+### if run using wsl2 @hostname = [::1]
+@hostname = localhost
+@port = 8101
+@protocol = http
+@host = {{protocol}}://{{hostname}}:{{port}}
+
+### Get Payment by workerId and days
+GET {{host}}/payments/1/days/1 HTTP/1.1
