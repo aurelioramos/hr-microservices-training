@@ -43,3 +43,5 @@ java -jar target/seu-projeto.jar --server.port=8083
 * [Service Registration and Discovery](https://spring.io/guides/gs/service-registration-and-discovery)
 * [Spring Cloud Circuit Breaker](https://spring.io/projects/spring-cloud-circuitbreaker)
 * [Resilience4j Circuit Breaker](https://resilience4j.readme.io/docs/circuitbreaker)
+* [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway)
+* [Building a Spring API Gateway with Eureka for Microservices](https://medium.com/@dinesharney/building-a-spring-api-gateway-with-eureka-for-microservices-695ed220d73b)

@@ -1,0 +1,29 @@
+### https://github.com/Huachao/vscode-restclient/issues/523
+### https://github.com/Huachao/vscode-restclient#environment-variables
+### if run using wsl2 @hostname = [::1]
+@hostname = 192.168.1.184
+@port = 8765
+@protocol = http
+@host = {{protocol}}://{{hostname}}:{{port}}
+
+### Get Payment by workerId and days
+GET {{host}}/hr-payroll/payments/1/days/3 HTTP/1.1
+
+### Get All workers
+GET {{host}}/hr-worker/workers HTTP/1.1
+
+### Get Worker by Id
+GET {{host}}/hr-worker/workers/1 HTTP/1.1
+
+### Get Worker by Id
+# @prompt workerId Worker Id
+GET {{host}}/hr-worker/workers/{{workerId}} HTTP/1.1
+
+### Create Worker
+POST {{host}}/hr-worker/workers HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Calvin",
+    "dailyIncome": 100
+}
