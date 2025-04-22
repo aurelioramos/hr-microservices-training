@@ -29,14 +29,14 @@
 ```bash
 git clone mscourse
 ```
-
+./mvnw spring-boot:run -Dspring-boot.run.arguments="--server.port=8002"
+java -jar target/seu-projeto.jar --server.port=8083
 
 <h2 id="references">📖 References</h2>
 
-[📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
-
-[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
-
-[Spring database initialization](https://docs.spring.io/spring-boot/how-to/data-initialization.html)
-[Spring Quick Guide on Loading Initial Data with Spring Boot](https://www.baeldung.com/spring-boot-data-sql-and-schema-sql)
-[Spring Cloud OpenFeign](https://spring.io/projects/spring-cloud-openfeign#overview)
+* [📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
+* [💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+* [Spring database initialization](https://docs.spring.io/spring-boot/how-to/data-initialization.html)
+* [Spring Quick Guide on Loading Initial Data with Spring Boot](https://www.baeldung.com/spring-boot-data-sql-and-schema-sql)
+* [Spring Cloud OpenFeign](https://spring.io/projects/spring-cloud-openfeign#overview)
+* [Spring Cloud LoadBalancer](https://docs.spring.io/spring-cloud-commons/reference/spring-cloud-commons/common-abstractions.html)
