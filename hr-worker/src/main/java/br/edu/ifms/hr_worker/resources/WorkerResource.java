@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.edu.ifms.hr_worker.entities.Worker;
 import br.edu.ifms.hr_worker.repositories.WorkerRepository;
-import jakarta.websocket.server.PathParam;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
