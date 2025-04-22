@@ -7,4 +7,4 @@
 @host = {{protocol}}://{{hostname}}:{{port}}
 
 ### Get Payment by workerId and days
-GET {{host}}/payments/1/days/1 HTTP/1.1
+GET {{host}}/payments/1/days/3 HTTP/1.1
