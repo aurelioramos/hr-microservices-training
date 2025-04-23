@@ -24,3 +24,6 @@ content-type: application/json
     "name": "Calvin",
     "dailyIncome": 100
 }
+
+### Get All config
+GET {{host}}/workers/configs HTTP/1.1
