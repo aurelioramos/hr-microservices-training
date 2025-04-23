@@ -9,6 +9,7 @@
 <p align="center">
     <b>Hands-on project for learning microservices with Spring Boot and Spring Cloud</b>    
 </p>
+
 This repository contains a hands-on training project for building microservices using Spring Boot, Spring Cloud, and related tools in a distributed system architecture.
 It was developed based on the Udemy course [Microsserviços Java com Spring Boot e Spring Cloud](https://www.udemy.com/course/microsservicos-java-spring-cloud/) by [Nelio Alves](https://github.com/acenelio/).
 
@@ -37,7 +38,6 @@ The project contains some microservices concepts, including:
 
 <h2 id="started">🚀 Getting started</h2>
 
-
 <h3>Prerequisites</h3>
 
 - [Java 21](https://www.azul.com/downloads/?package=jdk#zulu)
@@ -54,6 +54,7 @@ java -jar target/my-project.jar --server.port=8083
 Or use your IDE to run the Spring Boot main class.
 
 <h2 id="references">📖 References</h2>
+
 * [Nelio Alves - Curso Microsserviços Java com Spring Boot e Spring Cloud](https://github.com/acenelio/ms-course)
 * [📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
 * [💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
