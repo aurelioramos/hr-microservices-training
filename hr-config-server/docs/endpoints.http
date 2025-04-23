@@ -1,0 +1,13 @@
+### https://github.com/Huachao/vscode-restclient/issues/523
+### https://github.com/Huachao/vscode-restclient#environment-variables
+### if run using wsl2 @hostname = [::1]
+@hostname = localhost
+@port = 8888
+@protocol = http
+@host = {{protocol}}://{{hostname}}:{{port}}
+
+### Get hr-worker profile default
+GET {{host}}/hr-worker/default HTTP/1.1
+
+### Get hr-worker profile test
+GET {{host}}/hr-worker/test HTTP/1.1

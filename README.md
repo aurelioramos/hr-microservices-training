@@ -36,6 +36,7 @@ java -jar target/seu-projeto.jar --server.port=8083
 
 * [📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
 * [💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+* [12 factor](https://12factor.net/pt_br/)
 * [Spring database initialization](https://docs.spring.io/spring-boot/how-to/data-initialization.html)
 * [Spring Quick Guide on Loading Initial Data with Spring Boot](https://www.baeldung.com/spring-boot-data-sql-and-schema-sql)
 * [Spring Cloud OpenFeign](https://spring.io/projects/spring-cloud-openfeign#overview)
