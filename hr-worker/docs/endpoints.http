@@ -2,7 +2,7 @@
 ### https://github.com/Huachao/vscode-restclient#environment-variables
 ### if run using wsl2 @hostname = [::1]
 @hostname = localhost
-@port = 8001
+@port = 54184
 @protocol = http
 @host = {{protocol}}://{{hostname}}:{{port}}
 
@@ -27,3 +27,6 @@ content-type: application/json
 
 ### Get All config
 GET {{host}}/workers/configs HTTP/1.1
+
+### Get Actuator refresh
+POST {{host}}/actuator/refresh HTTP/1.1

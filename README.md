@@ -46,3 +46,8 @@ java -jar target/seu-projeto.jar --server.port=8083
 * [Resilience4j Circuit Breaker](https://resilience4j.readme.io/docs/circuitbreaker)
 * [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway)
 * [Building a Spring API Gateway with Eureka for Microservices](https://medium.com/@dinesharney/building-a-spring-api-gateway-with-eureka-for-microservices-695ed220d73b)
+* [Building a Spring API Gateway with Eureka for Microservices](https://medium.com/@dinesharney/building-a-spring-api-gateway-with-eureka-for-microservices-695ed220d73b)
+* [Spring Cloud Config](https://docs.spring.io/spring-cloud-config/docs/current/reference/html/)
+* [Quick Intro to Spring Cloud Configuration](https://www.baeldung.com/spring-cloud-configuration)
+* [Spring Boot Actuator](https://docs.spring.io/spring-boot/docs/2.5.6/reference/html/actuator.html)
+* [Spring Boot Actuator](https://www.baeldung.com/spring-boot-actuators)
