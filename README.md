@@ -68,3 +68,4 @@ Or use your IDE to run the Spring Boot main class.
 * [Building a Spring API Gateway with Eureka for Microservices](https://medium.com/@dinesharney/building-a-spring-api-gateway-with-eureka-for-microservices-695ed220d73b) 
 * [Quick Intro to Spring Cloud Configuration](https://www.baeldung.com/spring-cloud-configuration)
 * [Spring Boot Actuator](https://www.baeldung.com/spring-boot-actuators)
+* [JPA Query Methods](https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html)
