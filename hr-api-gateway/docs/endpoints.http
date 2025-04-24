@@ -27,3 +27,6 @@ content-type: application/json
     "name": "Calvin",
     "dailyIncome": 100
 }
+
+### Get User by Id
+GET {{host}}/hr-user/users/1 HTTP/1.1
