@@ -34,6 +34,9 @@ The project contains some microservices concepts, including:
 - [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway)
 - [Spring Cloud Config](https://docs.spring.io/spring-cloud-config/docs/current/reference/html/)
 - [Spring Boot Actuator](https://docs.spring.io/spring-boot/docs/2.5.6/reference/html/actuator.html)
+- [Spring Security](https://spring.io/projects/spring-security)
+- [OAuth](https://oauth.net/)
+- [JSON Web Token (JWT)](https://jwt.io/)
 - [Docker](https://www.docker.com/)
 
 <h2 id="started">🚀 Getting started</h2>
