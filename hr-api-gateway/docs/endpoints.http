@@ -30,3 +30,6 @@ content-type: application/json
 
 ### Get User by Id
 GET {{host}}/hr-user/users/1 HTTP/1.1
+
+### Get User by email
+GET {{host}}/hr-user/users/search?email=leia@gmail.com HTTP/1.1
