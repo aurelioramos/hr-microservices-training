@@ -1,0 +1,13 @@
+### https://github.com/Huachao/vscode-restclient/issues/523
+### https://github.com/Huachao/vscode-restclient#environment-variables
+### if run using wsl2 @hostname = [::1]
+@hostname = localhost
+@port = 59824
+@protocol = http
+@host = {{protocol}}://{{hostname}}:{{port}}
+
+### Get User by Id
+GET {{host}}/users/1 HTTP/1.1
+
+### Get User by email
+GET {{host}}/users/search?email=leia@gmail.com HTTP/1.1
